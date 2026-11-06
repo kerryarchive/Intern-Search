@@ -1,0 +1,52 @@
+# config.yaml — what to search for. Safe to commit (nothing personal in here).
+
+# Where your tracker lives. Created automatically on first run.
+tracker_file: internships.xlsx
+
+# Claude model. Haiku is cheap and fast; switch to claude-sonnet-5-5 if
+# extraction on messy pages isn't good enough.
+model: claude-haiku-5-5
+
+# Let the AI help match unclear form labels to profile fields during prefill.
+# (It only ever picks a field NAME — values always come from profile.yaml.)
+ai_field_matching: true
+
+# --- Sources ----------------------------------------------------------------
+# Community list on GitHub, updated daily. Change the year each cycle.
+simplify_repo: SimplifyJobs/Summer2027-Internships
+
+# Company job boards with free public APIs. Add the token from a company's
+# careers URL:  boards.greenhouse.io/<token>   or   jobs.lever.co/<token>
+greenhouse_boards: []
+lever_companies: []
+
+# --- Filters (applied to job titles/locations) ------------------------------
+filters:
+  # Title must contain one of these
+  must_include: [intern, co-op, coop]
+
+  # ...and at least one of these (leave empty [] to accept every internship)
+  keywords:
+    - security
+    - cybersecurity
+    - cyber
+    - SOC
+    - threat
+    - incident response
+    - forensic
+    - penetration
+    - IT
+    - information technology
+    - information systems
+    - help desk
+    - desktop support
+    - technical support
+    - network
+    - infrastructure
+    - systems analyst
+
+  # Skip titles with these words
+  exclude: [PhD, MBA, "Ph.D", graduate]
+
+  # Location must contain one of these (empty [] = anywhere)
+  locations: [Atlanta, GA, Georgia, Remote, Hybrid]

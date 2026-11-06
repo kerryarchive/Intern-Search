@@ -1,0 +1,15 @@
+# Personal data — never commit
+profile.yaml
+*.xlsx
+*.pdf
+.env
+
+# Saved browser logins
+browser_profile/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/

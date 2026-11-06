@@ -1,0 +1,34 @@
+# profile.example.yaml — copy this to profile.yaml and fill it in.
+# profile.yaml is in .gitignore so your personal info never goes to GitHub.
+#
+# Everything the agent types into an application form comes from THIS file.
+# If a field isn't here, the agent leaves that box empty for you.
+
+contact:
+  first_name: Your
+  last_name: Name
+  email: you@example.com
+  phone: "555-555-5555"
+  city: Atlanta
+  state: GA
+  linkedin: https://www.linkedin.com/in/your-handle
+  github: https://github.com/your-handle
+  portfolio: ""
+
+education:
+  school: Your University
+  degree: Bachelor of Business Administration
+  major: Computer Information Systems
+  graduation_date: May 2027
+  gpa: ""          # leave blank if you'd rather not auto-fill it
+
+# Full path to your resume PDF (uploaded on forms that ask for a resume)
+resume_path: C:/Users/you/Documents/resume.pdf
+
+# Paste your resume text here. The `score` command compares job requirements
+# against ONLY what's written here — it won't assume skills you didn't list.
+background: |
+  Skills: Python, SQL, JavaScript, HTML/CSS ...
+  Coursework: ...
+  Projects: ...
+  Experience: ...
