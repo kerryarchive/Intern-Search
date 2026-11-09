@@ -1,0 +1,183 @@
+{
+  "contact": {
+    "name": "Jordan Smith",
+    "location": "City, ST",
+    "email": "you@example.com",
+    "phone": "(000) 000-0000",
+    "linkedin": "linkedin.com/in/YOUR-HANDLE",
+    "github": "github.com/YOUR-HANDLE"
+  },
+  "education": {
+    "school": "Example State University",
+    "location": "City, ST",
+    "degree": "BBA, Computer Information Systems",
+    "concentration": "Cybersecurity",
+    "graduation": "Expected May 2027",
+    "gpa": "3.50"
+  },
+  "skills": {
+    "Programming & Web": [
+      "Python",
+      "SQL",
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ],
+    "Security Concepts": [
+      "CIA Triad",
+      "Threat Modeling",
+      "Vulnerability Assessment",
+      "Access Control"
+    ],
+    "Business Tools": [
+      "Microsoft Excel",
+      "Technical Presentations"
+    ]
+  },
+  "projects": [
+    {
+      "id": "inventory-app",
+      "technical": true,
+      "title": "Inventory Tracker Web App",
+      "context": "Campus Hackathon",
+      "date": "Oct 2026",
+      "stack": "Python, Streamlit, SQL",
+      "keywords": [
+        "python",
+        "streamlit",
+        "sql",
+        "database",
+        "web",
+        "application",
+        "backend",
+        "software",
+        "development"
+      ],
+      "bullets": [
+        {
+          "id": "inventory-app-1",
+          "text": "Built a web application for tracking club equipment during a weekend hackathon."
+        },
+        {
+          "id": "inventory-app-2",
+          "text": "Designed a relational database schema and wrote SQL queries to report on item availability."
+        }
+      ]
+    },
+    {
+      "id": "security-report",
+      "title": "Phishing Awareness Research Report",
+      "context": "Intro to Security",
+      "date": "2026",
+      "stack": "Research, Risk Analysis",
+      "keywords": [
+        "security",
+        "cybersecurity",
+        "phishing",
+        "risk",
+        "threat",
+        "research",
+        "report",
+        "awareness"
+      ],
+      "bullets": [
+        {
+          "id": "security-report-1",
+          "text": "Authored a research report on common phishing techniques and recommended user-awareness controls."
+        }
+      ]
+    },
+    {
+      "id": "portfolio-site",
+      "technical": true,
+      "title": "Personal Portfolio Website",
+      "context": "Web Development Course",
+      "date": "2026",
+      "stack": "HTML, CSS, JavaScript",
+      "keywords": [
+        "html",
+        "css",
+        "javascript",
+        "web",
+        "frontend",
+        "accessible",
+        "design",
+        "website"
+      ],
+      "bullets": [
+        {
+          "id": "portfolio-site-1",
+          "text": "Designed and published an accessible, multi-page website using HTML, CSS, and JavaScript."
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "id": "cafe",
+      "title": "Team Member",
+      "company": "Example Cafe",
+      "location": "City, ST",
+      "dates": "Jan 2026 – Present",
+      "bullets": [
+        {
+          "id": "cafe-1",
+          "text": "Serve customers and process POS transactions accurately in a fast-paced environment."
+        },
+        {
+          "id": "cafe-2",
+          "text": "Coordinate with teammates during peak shifts while balancing a full-time course load."
+        }
+      ]
+    }
+  ],
+  "coursework": [
+    {
+      "name": "Introduction to Security",
+      "status": "current",
+      "keywords": [
+        "security",
+        "cybersecurity",
+        "threat",
+        "vulnerability",
+        "risk",
+        "incident"
+      ]
+    },
+    {
+      "name": "Systems Analysis",
+      "status": "current",
+      "keywords": [
+        "systems",
+        "analysis",
+        "sdlc",
+        "agile",
+        "requirements"
+      ]
+    },
+    {
+      "name": "Database Management",
+      "status": "completed",
+      "keywords": [
+        "sql",
+        "database",
+        "data",
+        "analytics"
+      ]
+    },
+    {
+      "name": "Introduction to Programming",
+      "status": "completed",
+      "keywords": [
+        "python",
+        "programming",
+        "scripting",
+        "software"
+      ]
+    }
+  ],
+  "activities": [
+    "Campus Hackathon Participant (Oct 2026)",
+    "Cybersecurity Club Member"
+  ]
+}

@@ -1,0 +1,20 @@
+Cybersecurity Analyst Intern - Summer 2027 (SAMPLE POSTING FOR TESTING)
+
+About the role
+Our Security Operations team is looking for an intern to support threat monitoring, vulnerability
+assessment, and incident response. You will work alongside analysts to triage alerts in our SIEM
+(Splunk), document findings, and help automate repetitive tasks with Python scripting.
+
+Responsibilities
+- Monitor security events and assist with incident response and forensic documentation
+- Support vulnerability assessment and risk analysis across systems and network infrastructure
+- Write Python scripts and SQL queries to automate reporting
+- Help review access control and compliance requirements against NIST standards
+- Communicate findings to technical and non-technical stakeholders
+
+Qualifications
+- Pursuing a degree in Cybersecurity, Computer Information Systems, or related field
+- Coursework in security, networks, or systems analysis
+- Familiarity with Python, SQL, Linux, and Wireshark
+- Understanding of the CIA triad, threat modeling, and cryptography basics
+- Strong written communication

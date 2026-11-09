@@ -13,3 +13,8 @@ __pycache__/
 .venv/
 venv/
 .pytest_cache/
+
+# Resume bot personal data
+resume_bot/profile.json
+resume_bot/output/
+*.docx
