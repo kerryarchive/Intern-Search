@@ -13,7 +13,8 @@
     "degree": "BBA, Computer Information Systems",
     "concentration": "Cybersecurity",
     "graduation": "Expected May 2027",
-    "gpa": "3.50"
+    "gpa": "3.50",
+    "honors": "Dean's List (Fall 2025)"
   },
   "skills": {
     "Programming & Web": [
@@ -175,6 +176,9 @@
         "software"
       ]
     }
+  ],
+  "certifications": [
+    "Example Certificate"
   ],
   "activities": [
     "Campus Hackathon Participant (Oct 2026)",
